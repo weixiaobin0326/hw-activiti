@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="8f47ec11-e4e0-4732-991e-84263eef0a0b" name="Default" comment="项目初始化">
+    <list default="true" readonly="true" id="8f47ec11-e4e0-4732-991e-84263eef0a0b" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/xiaobin/test/testactivity.bpmn" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/xiaobin/test/testactivity.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/hw-activiti.iml" afterPath="$PROJECT_DIR$/hw-activiti.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -16,17 +17,92 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            <state relative-caret-position="396">
+              <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="testactivity.bpmn" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaobin/test/testactivity.bpmn">
+          <provider selected="true" editor-type-id="bpmn-editor">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testactivity.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaobin/test/testactivity.xml">
+          <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BPMN_2_0/flowPath=G:/xiaobin/hw-activiti/src/main/java/com/xiaobin/test/testactivity.xml" pinned="false" current-in-tab="false">
+        <entry file="uml://BPMN_2_0/flowPath=G:/xiaobin/hw-activiti/src/main/java/com/xiaobin/test/testactivity.xml">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>BPMN_2_0</ID>
+              <OriginalElement>flowPath=G:/xiaobin/hw-activiti/src/main/java/com/xiaobin/test/testactivity.xml</OriginalElement>
+              <nodes>
+                <node x="16.0" y="252.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @39994</node>
+                <node x="29.0" y="0.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @39981</node>
+                <node x="31.5" y="336.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @39999</node>
+                <node x="10.0" y="168.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @39989</node>
+                <node x="34.0" y="84.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @39984</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @39989" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @39994">
+                  <point x="0.0" y="15.0" />
+                  <point x="0.0" y="-15.0" />
+                </edge>
+                <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @39994" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @39999">
+                  <point x="0.0" y="15.0" />
+                  <point x="0.0" y="-15.0" />
+                </edge>
+                <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @39984" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @39989">
+                  <point x="0.0" y="15.0" />
+                  <point x="0.0" y="-15.0" />
+                </edge>
+                <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @39981" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @39984">
+                  <point x="0.0" y="15.0" />
+                  <point x="0.0" y="-15.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="1.0" x="-386.5" y="-11.0" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Details</Category>
+              </Categories>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testactivity.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaobin/test/testactivity.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="BpmnFile" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -41,6 +117,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/leave_activiti.bpmn" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xiaobin/test/testactivity.bpmn" />
       </list>
     </option>
   </component>
@@ -64,9 +142,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="757" />
-    <option name="width" value="1127" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="596" />
+    <option name="y" value="32" />
+    <option name="width" value="1349" />
     <option name="height" value="1023" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -95,7 +174,9 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -136,6 +217,40 @@
               <item name="hw-activiti" type="b2602c69:ProjectViewProjectNode" />
               <item name="hw-activiti" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hw-activiti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw-activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hw-activiti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw-activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaobin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hw-activiti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw-activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaobin" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hw-activiti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw-activiti" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -155,11 +270,19 @@
     <property name="options.lastSelected" value="vcs.Subversion" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/xiaobin/test" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\xiaobin\hw-activiti\src\main\java\com\xiaobin\test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\xiaobin\hw-activiti\src\main\java\com\xiaobin\test" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -272,7 +395,7 @@
       <option name="presentableId" value="Default" />
       <updated>1557970878450</updated>
       <workItem from="1557970881476" duration="127000" />
-      <workItem from="1557971057203" duration="2132000" />
+      <workItem from="1557971057203" duration="3891000" />
     </task>
     <task id="LOCAL-00001" summary="项目初始化">
       <created>1557971531554</created>
@@ -288,38 +411,47 @@
       <option name="project" value="LOCAL" />
       <updated>1557972657023</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="第二次提交">
+      <created>1557973551222</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1557973551222</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2259000" />
+    <option name="totallyTimeSpent" value="4018000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="757" y="0" width="1127" height="1023" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="BPMN Editor" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22547974" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25398314" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2531983" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="BPMNPalette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26865673" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -337,7 +469,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目初始化" />
-    <option name="LAST_COMMIT_MESSAGE" value="项目初始化" />
+    <MESSAGE value="第二次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="第二次提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -352,12 +485,148 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaobin/test/leave_activiti.xml">
+      <provider selected="true" editor-type-id="bpmn-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="uml://BPMN_2_0/flowPath=G:/xiaobin/hw-activiti/leave_activiti.xml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>BPMN_2_0</ID>
+          <OriginalElement>flowPath=G:/xiaobin/hw-activiti/leave_activiti.xml</OriginalElement>
+          <nodes />
+          <notes />
+          <edges>
+            <edge source="&lt;invalid&gt;" target="&lt;invalid&gt;">
+              <point x="0.0" y="15.0" />
+              <point x="0.0" y="-15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="543.0" y="191.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Details</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaobin/test/leave_activiti.xml.uml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>BPMN_2_0</ID>
+          <OriginalElement />
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="774.5" y="434.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Details</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaobin/test/leave_activiti.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="uml://BPMN_2_0/flowPath=G:/xiaobin/hw-activiti/src/main/java/com/xiaobin/test/leave_activiti.xml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>BPMN_2_0</ID>
+          <OriginalElement>flowPath=G:/xiaobin/hw-activiti/src/main/java/com/xiaobin/test/leave_activiti.xml</OriginalElement>
+          <nodes>
+            <node x="27.0" y="84.0">&lt;invalid&gt;</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-479.5" y="-11.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Details</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaobin/test/leave_activiti.xml">
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        <state relative-caret-position="66">
+          <caret line="3" column="43" lean-forward="true" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaobin/test/testactivity.bpmn">
+      <provider selected="true" editor-type-id="bpmn-editor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaobin/test/testactivity.xml">
+      <provider editor-type-id="com.intellij.jboss.jbpm.chart.editor.BpmnDesignerFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://BPMN_2_0/flowPath=G:/xiaobin/hw-activiti/src/main/java/com/xiaobin/test/testactivity.xml">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>BPMN_2_0</ID>
+          <OriginalElement>flowPath=G:/xiaobin/hw-activiti/src/main/java/com/xiaobin/test/testactivity.xml</OriginalElement>
+          <nodes>
+            <node x="16.0" y="252.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @39994</node>
+            <node x="29.0" y="0.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @39981</node>
+            <node x="31.5" y="336.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @39999</node>
+            <node x="10.0" y="168.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @39989</node>
+            <node x="34.0" y="84.0">interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @39984</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @39989" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @39994">
+              <point x="0.0" y="15.0" />
+              <point x="0.0" y="-15.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @39994" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TEndEvent @39999">
+              <point x="0.0" y="15.0" />
+              <point x="0.0" y="-15.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @39984" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @39989">
+              <point x="0.0" y="15.0" />
+              <point x="0.0" y="-15.0" />
+            </edge>
+            <edge source="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TStartEvent @39981" target="interface com.intellij.jboss.jbpm.model.xml.bpmn20.TUserTask @39984">
+              <point x="0.0" y="15.0" />
+              <point x="0.0" y="-15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-386.5" y="-11.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Details</Category>
+          </Categories>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xiaobin/test/testactivity.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
